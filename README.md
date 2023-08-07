@@ -170,4 +170,4 @@ Success! You made it. You have installed osTicket!
 <br />
 
 Thank You for reading!
-For the the next tutorial in this series go [here](https://github.com/afisaminou//post-install-config)
+
