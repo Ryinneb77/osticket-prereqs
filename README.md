@@ -23,7 +23,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Heidi SQL
 
 <h2>Installation Steps</h2>
-Welcome to this tutorial!
+
+<h2>Welcome to this tutorial!</h2>
 
 I have provided a link here: [osTicket prerequisite and installation files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 <br>
@@ -31,23 +32,27 @@ That link will provide you with all the material needed to download and get osTi
 
 **Here a Step by step guide line Doc**: [CLICK ME](https://docs.google.com/document/d/1NwkGnj89wmbUcU-N2-20DjQNER1iwr_t/edit?usp=share_link&ouid=111907008899833271635&rtpof=true&sd=true)
 
-Let's get started quickly by creating our resource group and virtual machine (VM) in the Microsoft Azure portal. Creating the virtual machine will automatically create the resource group. In order to protect our physical machine from any event that may occur, we will use a VM and connect to it via RDP (Remote Desktop Protocol) for the next steps in our tutorial.
+**Let's get started quickly by creating our resource group and virtual machine (VM) in the Microsoft Azure portal. Creating the virtual machine will automatically create the resource group.**
+**In order to protect our physical machine from any event that may occur, we will use a VM and connect to it via RDP (Remote Desktop Protocol) for the next steps in our tutorial.**
 
 <img src="https://i.imgur.com/MxVXQ77.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/9QRjRka.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Now that the Virtual Machine is created we can see the public IP address and we will use that to do our remote connection.
+**Now that the Virtual Machine is created we can see the public IP address and we will use that to do our remote connection.**
 
 <img src="https://i.imgur.com/gYsmhFz.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now ,simply connect to our newly created VM via RDP using the VM public IPv4 address and log in as "labuser".
-Note:If you are a Mac user, you will have to download Microsoft Remote Desktop to be able to remotely connect to the VM.
+ 
+**Now ,simply connect to our newly created VM via RDP using the VM public IPv4 address and log in as "labuser".**
+**Note:If you are a Mac user, you will have to download Microsoft Remote Desktop to be able to remotely connect to the VM.**
 <img src="https://i.imgur.com/TQmWD8Y.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Now that we are connected to the VM we will have to enable **IIS (Internet Information Services)**. To do so, 1-Access the Control Panel > 2-Program > 3-On the upper left hand side select **"Turn Windows features On or Off"**> 4- Enable the **IIS** (Internet Information Services) > 5-Expand the World Wide Web Services > 6-Expand Application Development features > 7-Check the **CGI box and click OK to install**.
+**Now that we are connected to the VM we will have to enable IIS (Internet Information Services)**. 
+**To do so, 1-Access the Control Panel > 2-Program > 3-On the upper left hand side select "Turn Windows features On or Off"> 4- Enable the IIS (Internet Information Services) >**
+**5-Expand the World Wide Web Services > 6-Expand Application Development features > 7-Check the CGI box and click OK to install**.
 
 
 <img src="https://i.imgur.com/FC5URDa.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
@@ -221,6 +226,37 @@ Password1**
 </p>
 <p></p>
 <br />
+
+**From the osTicket Home page,under connections we will hit the drop down on the Sites folder, the drop down on Default Web Site, and then click on the osTicket Folder.**
+**From this on the right hand side there is a hyperlink "Browse :80(http)" and we are going to click that to take us to the osTicket Installer page**
+
+<p>
+<img src="https://i.imgur.com/hxlthmr.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+
+
+<p>
+<img src="https://i.imgur.com/AqUwKuB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+
+<p>
+<img src="https://i.imgur.com/Ir0aUuw.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+**We will now enable some extentions that are diabled**
+
+**First we go back to the PHP Manager on the IIS Home and double clicking that**
+
+<p>
+<img src="https://i.imgur.com/GXdOKkI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
 
 
 
