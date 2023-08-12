@@ -257,7 +257,37 @@ Password1**
 <p></p>
 <br />
 
+**Under PHP Extentions we will click Enable or Disable an extention**
 
+<p>
+<img src="https://i.imgur.com/y6pCyfE.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+**Now we will enable these three extentions php_imap.dll, php_intl.dll and php_opcache.dll**
+
+<p>
+<img src="https://i.imgur.com/tkTpLNk.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+**Now when we go to the osTicket Installer page and refresh some of the red X's will now be green check marks**
+
+<p>
+<img src="https://i.imgur.com/Ir0aUuw.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/4l0QPeT.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+**Rename: ost-config.php from: C:\inetpub\wwwroot\osTicket\include we locate the file ost-sampleconfig.php and rename it ost-config.php**
+
+<p>
+<img src="https://i.imgur.com/hh10DkD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/JkvPtk6.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
 
 
 
