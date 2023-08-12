@@ -169,13 +169,61 @@ Password1**
 
 <h2>Install osTicket v1.15.8</h2>
 
-**Download the osTicket-v1.15.8 from the Installation Files**
+**Download the osTicket-v1.15.8 zip folder from the Installation Files**
 
 <p>
 <img src="https://i.imgur.com/HiFXvwg.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
 <br />
+
+**After downloading the zip file open the folder and locate the Upload folder**
+
+<p>
+<img src="https://i.imgur.com/mqrqp7L.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+**Next open a second file explorer and locate and open the folder C:\inetpub**
+
+<p>
+<img src="https://i.imgur.com/AI83dab.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+**In the folder C:\inetpub locate the folder "wwwroot" and drag the "Upload" folder from the osTicket Folder into the "wwwroot" folder.**
+
+<p>
+<img src="https://i.imgur.com/ILaNIMr.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+
+<p>
+<img src="https://i.imgur.com/IbxUg7D.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+**Finally rename the upload folder to osTicket**
+
+<p>
+<img src="https://i.imgur.com/KGuFBx3.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+**Do a quick restart to refresh the server**
+
+<p>
+<img src="https://i.imgur.com/varqghK.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+
+
 
 Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket Then double click on PHP manager. Click on **Disable or enable an extension** Enable  "phph_imap" - "php_intl.dll"  &  "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes.
 
